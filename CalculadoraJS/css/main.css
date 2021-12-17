@@ -1,0 +1,39 @@
+.calc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 350px;
+  margin: 0 auto;
+  border-radius: 2%;
+  margin-top: 100px;
+  background: black;
+}
+
+.item {
+  margin: 5px;
+  background: rgb(85, 84, 84);
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 5%;
+}
+
+.item_result {
+  background-color: white;
+  grid-column: 1 / 5;
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+  padding: 5px;
+  height: 25px;
+  
+}
+
+.equal {
+  grid-row: 5 / 7;
+  grid-column: 4 / 5;
+}
+
+.num0 {
+  grid-column: 1 / 3;
+}
