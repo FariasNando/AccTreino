@@ -27,12 +27,19 @@ function ListaTexto(props) {
         const newT = t.toLowerCase();
         return newT
     }
+    
     function txtSpace(t) {
         const newT = t.split("").join("  ");
         return newT
     }
+
     function txtReverse(t) {
         const newT = t.split('').reverse().join('');
+        return newT
+    }
+
+    function txtChange(t) {
+        const newT = t.split(" ").reverse().join(" ");
         return newT
     }
     
@@ -43,7 +50,8 @@ function ListaTexto(props) {
         txtUpperCase(props.name) + " " + DateSet(), 
         txtLowerCase(props.name) + " " + DateSet(),   
         txtSpace(props.name) + " " + DateSet(),  
-        txtReverse(props.name) + " " + DateSet(), 
+        txtReverse(props.name) + " " + DateSet(),
+        txtChange(props.name) + " " + DateSet(),  
     ]
    
     const itens = TextsArray.map((data, index) => <p key={index}>{data}</p>)
