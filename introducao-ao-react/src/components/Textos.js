@@ -31,6 +31,10 @@ function ListaTexto(props) {
         const newT = t.split("").join("  ");
         return newT
     }
+    function txtReverse(t) {
+        const newT = t.split('').reverse().join('');
+        return newT
+    }
     
      
  // Array com os tipos de textos formatados
@@ -38,7 +42,8 @@ function ListaTexto(props) {
         txtNormal(props.text) + " " + DateSet(), 
         txtUpperCase(props.name) + " " + DateSet(), 
         txtLowerCase(props.name) + " " + DateSet(),   
-        txtSpace(props.name) + " " + DateSet(),   
+        txtSpace(props.name) + " " + DateSet(),  
+        txtReverse(props.name) + " " + DateSet(), 
     ]
    
     const itens = TextsArray.map((data, index) => <p key={index}>{data}</p>)
