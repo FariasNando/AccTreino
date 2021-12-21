@@ -58,6 +58,18 @@ function ListaTexto(props) {
         return newT
     }
     
+    function txtLowUp(t) {
+        let newT = '';
+        for (let i = 0; i < t.length; i++) {
+            if (i % 2 === 0) {
+                newT += t.charAt(i).toLowerCase();
+            } else {
+                newT += t.charAt(i).toUpperCase();
+            }
+        }
+        return newT;
+    }
+    
      
  // Array com os tipos de textos formatados
     const TextsArray = [
@@ -70,6 +82,7 @@ function ListaTexto(props) {
         txtRepReverse(props.name) + "  " + DateSet(),
         txtChangeReverse(props.name) + " " + DateSet(),  
         txtReveseDot(props.name) + " " + DateSet(),
+        txtLowUp(props.name) + " " + DateSet()
     ]
    
     const itens = TextsArray.map((data, index) => <p key={index}>{data}</p>)
