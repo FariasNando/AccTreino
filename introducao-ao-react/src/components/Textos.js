@@ -18,11 +18,16 @@ function ListaTexto(props) {
         return t;
     }    
 
+    function txtUpperCase(t) {
+        const newT = t.toUpperCase();
+        return newT
+    }
     
      
  // Array com os tipos de textos formatados
     const TextsArray = [
-        txtNormal(props.text) + " " + DateSet(),        
+        txtNormal(props.text) + " " + DateSet(), 
+        txtUpperCase(props.name) + " " + DateSet(),       
     ]
    
     const itens = TextsArray.map((data, index) => <p key={index}>{data}</p>)
