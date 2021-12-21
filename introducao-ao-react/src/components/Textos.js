@@ -52,6 +52,11 @@ function ListaTexto(props) {
         const newT = t.split(" ").reverse().join(" ").split("").reverse().join("");
         return newT
     }
+
+    function txtReveseDot(t) {
+        let newT = t.split('').reverse().join('.').replace(' ', '') + DateSet();
+        return newT
+    }
     
      
  // Array com os tipos de textos formatados
@@ -64,6 +69,7 @@ function ListaTexto(props) {
         txtChange(props.name) + " " + DateSet(),  
         txtRepReverse(props.name) + "  " + DateSet(),
         txtChangeReverse(props.name) + " " + DateSet(),  
+        txtReveseDot(props.name) + " " + DateSet(),
     ]
    
     const itens = TextsArray.map((data, index) => <p key={index}>{data}</p>)
