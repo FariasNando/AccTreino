@@ -54,7 +54,7 @@ function ListaTexto(props) {
     }
 
     function txtReveseDot(t) {
-        let newT = t.split('').reverse().join('.').replace(' ', '') + DateSet();
+        let newT = t.split('').reverse().join('.').replace(' ', '');
         return newT
     }
     
