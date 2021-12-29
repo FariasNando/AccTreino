@@ -2,7 +2,7 @@
 
 ## Principais funcionalidades de cada módulo e seus pontos de atenção</br></br>
 
-1. ***Onboarding VTEX Catálogo***
+1. ***Onboarding VTEX - Catálogo***
       
     - Categorias: Criação e alteração de departamentos, categorias e subcategorias. 
     	- Criar até 3 niveis de categoria para uma melhor pratica e deixar mais intuitivo para o cliente final.
@@ -35,9 +35,32 @@
 	- Coleções: Criar grupo de produtos.
 		- Usado para fins de promoções.</br></br></br>
 
-2. ***Onboarding VTEX Preços***
+2. ***Onboarding VTEX - Preços***
 
-	- 
+	- Lista de preço:
+		- O SKU que é precificado e não o produto.
+		- Tabelas de preço
+		- Politicas comerciais
+		- Preço base: quanto ele custa, quanto o cliente vai pagar.
+		- Preço de lista: preço "De".
+		- Preço fixo:</br></br>
+
+	- Regras:
+		- Descontos ou acrescimos no valor
+		- Arredondamento de preços
+		- Configurações</br></br></br>
+
+3. ***Onboarding VTEX - Promoções e Taxas***
+
+	- Audiencias de campanhas
+		- Containers de promoções
+		- Publico alvo = condições
+		- Condições para seu publico alvo ser aplicado (Carrinho)</br></br>
+
+	- Promoções
+		- b
+
+
 	
 
        
