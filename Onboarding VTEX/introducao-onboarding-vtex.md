@@ -44,7 +44,7 @@
 
 2. **_Onboarding VTEX - Preços_**
 
-   - Lista de preço:
+   - Lista de preço
 
      - O SKU que é precificado e não o produto.
      - Tabelas de preço
@@ -53,7 +53,8 @@
      - Preço de lista: preço "De".
      - Preço fixo:</br></br>
 
-   - Regras:
+   - Regras
+
      - Descontos ou acrescimos no valor
      - Arredondamento de preços
      - Configurações</br></br></br>
@@ -77,6 +78,7 @@
      - Toda promoção tem uma data de início e de final</br></br>
 
    - Cupom e taxas
+
      - Cupom - Código que é inserido no carrinho e ativa uma promoção
      - Taxa - Inverso de cupom - Usada para colocar algum imposto ou algo que tenha que cobrar a mais. (ex ICMS)</br></br></br>
 
@@ -89,19 +91,86 @@
      - Conta - Conta do ambiente - Lojas - Sistema multi-lojas</br></br>
 
    - Autenticação e aplicativos
+
      - Aplicativos auxiliares</br></br></br>
 
 5. **_Onboarding VTEX - Pedidos_**
 
-	- Todos os pedidos e configurações
+   - Todos os pedidos e configurações
 
-	- Estratégia e políticas de envio
-		- Transportadoras encarregadas de armazenar as planilhas de fretes</br></br>
-	
-	- Doca e estoque
-		- Doca -> ponto de origem
-		- Para uma doca ser utilizada ela obrigatoriamente precisa de uma politica de envio e de venda associadas
-		- Estoque InStore - Ponto de retirada</br></br>
+   - Estratégia e políticas de envio
 
-	- Tarifas de envio 
-		- 54
+     - Transportadoras encarregadas de armazenar as planilhas de fretes</br></br>
+
+   - Doca e estoque
+
+     - Doca -> ponto de origem
+     - Para uma doca ser utilizada ela obrigatoriamente precisa de uma politica de envio e de venda associadas
+     - Estoque InStore - Ponto de retirada</br></br>
+
+   - Tarifas de envio
+
+     - Simulação de checkout</br></br>
+
+   - Configurações e ponto de retirada
+
+     - Adicional nos fretes - margem de segurança
+     - Agrupar produtos na mesma remessa</br></br></br>
+
+6. **_Onboarding VTEX - Pagamentos_**
+
+   - Transações
+
+     - Um pedido sempre vai ter uma transação atrelada</br></br>
+
+   - Vale-compra
+
+     - Forma de pagamento (GiftCard)
+     - Codigos com valores para serem usados na hora do pagamento</br></br></br>
+
+7. **_Onboarding VTEX - Marketplace_**
+
+   - Marktplace
+
+     - Local responsável pela cobrança
+     - Pode vender produtos de outras lojas
+
+   - Sellers
+
+     - Loja dona do produto
+     - Sempore será responsável pela entraga do produto
+     - Loja e parceiros vtex - Configuração nativa</br></br></br>
+
+8. **_Onboarding VTEX - Configurações da Loja_**
+
+	- Políticas comerciais
+
+		- Tem custos a mais caso utilize mais do que uma politica
+		- Uma das utilidades - trabalhar com multi países</br></br>
+
+	- Checkout
+
+		- Cada loja tem seu checkout específico
+		- Se o campo 'Loja' ficar em branco ele vai ser utilizado como principal para todos.</br></br>
+
+
+	- CMS
+
+		- Toda a parte de gerenciamento de conteudo (Front)</br></br>
+		
+	- Site editor
+
+		- Não possui cache</br></br></br>
+		
+		
+9. **_Onboarding VTEX - Cliente_**
+
+	- Central de mensagem
+
+		- Armazenação de templates de emails institucionais</br></br>
+
+	- Master Data
+
+	 - Banco de dados, newsletter, formularios...
+
+		
