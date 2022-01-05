@@ -18,7 +18,7 @@
 
    - Produtos: Criação, alteração e exclusão de produtos.
 
-     - Diferenciação de produto e SKU - Produto é o que queremos vender e SKU sãoas variações desse produto.
+     - Diferenciação de produto e SKU - Produto é o que queremos vender e SKU são as variações desse produto.
      - Sku sempre será atrelado a um produto e um produto sempre precisa ter pelo menos um SKU para estar ativo.</br></br>
 
    - SKUs: Criar, excluirm copiar e alterar.
